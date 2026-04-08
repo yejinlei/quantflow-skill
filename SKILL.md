@@ -33,6 +33,14 @@ requirements:
 - 查看外汇数据
 - 查看债券数据
 - 查看加密货币数据
+- 查看行业经济数据
+- 查看全球经济数据
+- 查看新能源数据
+- 查看数字经济数据
+- 查看金融市场数据
+- 查看房地产数据
+- 查看交通运输数据
+- 查看农业数据
 - 导出数据供分析或回测
 - 使用 AKQuant 进行策略回测
 
@@ -111,10 +119,34 @@ requirements:
 ### 15. 加密货币数据
 - 核心接口：`crypto_currency_hist`（加密货币历史数据）, `crypto_currency_spot`（加密货币实时行情）
 
-### 16. 导出 / 研究准备
+### 16. 行业经济数据
+- 核心接口：`industry_energy_thermal_power_generation`（火力发电量）, `industry_energy_thermal_power_installed_capacity`（火力发电装机容量）
+
+### 17. 全球经济数据
+- 核心接口：`global_economic_indicator`（全球经济指标）, `global_economic_indicator_country`（国家经济指标）
+
+### 18. 新能源数据
+- 核心接口：`new_energy_vehicle_sales`（新能源汽车销量）, `new_energy_vehicle_production`（新能源汽车产量）
+
+### 19. 数字经济数据
+- 核心接口：`digital_economy_internet_user`（互联网用户数）, `digital_economy_mobile_user`（移动用户数）
+
+### 20. 金融市场数据
+- 核心接口：`financial_market_interbank_rate`（银行间利率）, `financial_market_shibor`（上海银行间同业拆放利率）
+
+### 21. 房地产数据
+- 核心接口：`real_estate_house_price`（房价数据）, `real_estate_investment`（房地产投资数据）
+
+### 22. 交通运输数据
+- 核心接口：`transportation_air_passenger`（航空客运量）, `transportation_railway_freight`（铁路货运量）
+
+### 23. 农业数据
+- 核心接口：`agriculture_grain_production`（粮食产量）, `agriculture_crop_planting_area`（农作物种植面积）
+
+### 24. 导出 / 研究准备
 - 核心：统一输出规则与命名规范
 
-### 17. 量化策略回测
+### 25. 量化策略回测
 - 核心接口：`stock_zh_a_daily`, `stock_zh_a_hist`, `futures_zh_daily`, `akquant` 库
 
 ***
@@ -300,6 +332,22 @@ requirements:
 - `bond_zh_cn_hist`：中国债券历史数据
 - `crypto_currency_hist`：加密货币历史数据
 - `crypto_currency_spot`：加密货币实时行情
+- `industry_energy_thermal_power_generation`：火力发电量
+- `industry_energy_thermal_power_installed_capacity`：火力发电装机容量
+- `global_economic_indicator`：全球经济指标
+- `global_economic_indicator_country`：国家经济指标
+- `new_energy_vehicle_sales`：新能源汽车销量
+- `new_energy_vehicle_production`：新能源汽车产量
+- `digital_economy_internet_user`：互联网用户数
+- `digital_economy_mobile_user`：移动用户数
+- `financial_market_interbank_rate`：银行间利率
+- `financial_market_shibor`：上海银行间同业拆放利率
+- `real_estate_house_price`：房价数据
+- `real_estate_investment`：房地产投资数据
+- `transportation_air_passenger`：航空客运量
+- `transportation_railway_freight`：铁路货运量
+- `agriculture_grain_production`：粮食产量
+- `agriculture_crop_planting_area`：农作物种植面积
 
 ***
 
@@ -336,6 +384,14 @@ requirements:
 - 看外汇数据
 - 看债券数据
 - 看加密货币
+- 看行业经济数据
+- 看全球经济数据
+- 看新能源数据
+- 看数字经济数据
+- 看金融市场数据
+- 看房地产数据
+- 看交通运输数据
+- 看农业数据
 - 拉数据导出
 - 测试交易策略
 - 回测量化模型
