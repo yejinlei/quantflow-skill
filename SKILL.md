@@ -41,6 +41,7 @@ requirements:
 - 查看房地产数据
 - 查看交通运输数据
 - 查看农业数据
+- 查看股票实时行情数据
 - 导出数据供分析或回测
 - 使用 AKQuant 进行策略回测
 
@@ -75,7 +76,7 @@ requirements:
 任务类型与核心接口：
 
 ### 1. 行情 / 趋势
-- 核心接口：`stock_zh_a_hist`, `stock_zh_a_spot`, `stock_zh_a_daily`
+- 核心接口：`stock_zh_a_hist`, `stock_zh_a_spot`, `stock_zh_a_daily`, `get_real_time_data` (实时数据获取)
 
 ### 2. 基本资料 / 标的识别
 - 核心接口：`stock_info_a_code_name`, `stock_company_info_em`
@@ -392,6 +393,10 @@ requirements:
 - 看房地产数据
 - 看交通运输数据
 - 看农业数据
+- 看股票实时行情
+- 实时价格
+- 现在价格
+- 当前行情
 - 拉数据导出
 - 测试交易策略
 - 回测量化模型
