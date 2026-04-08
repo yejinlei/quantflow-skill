@@ -28,6 +28,11 @@ requirements:
 - 梳理公告、新闻、政策
 - 查看宏观经济数据
 - 查看期货实时行情和历史数据
+- 查看期权数据
+- 查看基金数据
+- 查看外汇数据
+- 查看债券数据
+- 查看加密货币数据
 - 导出数据供分析或回测
 - 使用 AKQuant 进行策略回测
 
@@ -91,10 +96,25 @@ requirements:
 ### 10. 期货数据
 - 核心接口：`futures_zh_realtime`（期货实时行情）, `futures_zh_daily`（期货日线数据）, `futures_contract_info_shfe`（期货合约信息）
 
-### 11. 导出 / 研究准备
+### 11. 期权数据
+- 核心接口：`option_zh_sina_spot`（期权实时行情）, `option_zh_sina_daily`（期权日线数据）
+
+### 12. 基金数据
+- 核心接口：`fund_open_fund_info_em`（开放式基金信息）, `fund_etf_hist_sina`（ETF历史数据）
+
+### 13. 外汇数据
+- 核心接口：`forex_spot_quote`（外汇现货报价）, `forex_rate_history`（汇率历史数据）
+
+### 14. 债券数据
+- 核心接口：`bond_zh_cn_basic`（中国债券基本信息）, `bond_zh_cn_hist`（中国债券历史数据）
+
+### 15. 加密货币数据
+- 核心接口：`crypto_currency_hist`（加密货币历史数据）, `crypto_currency_spot`（加密货币实时行情）
+
+### 16. 导出 / 研究准备
 - 核心：统一输出规则与命名规范
 
-### 12. 量化策略回测
+### 17. 量化策略回测
 - 核心接口：`stock_zh_a_daily`, `stock_zh_a_hist`, `futures_zh_daily`, `akquant` 库
 
 ***
@@ -270,6 +290,16 @@ requirements:
 - `futures_zh_realtime`：期货实时行情
 - `futures_zh_daily`：期货日线数据
 - `futures_contract_info_shfe`：期货合约信息
+- `option_zh_sina_spot`：期权实时行情
+- `option_zh_sina_daily`：期权日线数据
+- `fund_open_fund_info_em`：开放式基金信息
+- `fund_etf_hist_sina`：ETF历史数据
+- `forex_spot_quote`：外汇现货报价
+- `forex_rate_history`：汇率历史数据
+- `bond_zh_cn_basic`：中国债券基本信息
+- `bond_zh_cn_hist`：中国债券历史数据
+- `crypto_currency_hist`：加密货币历史数据
+- `crypto_currency_spot`：加密货币实时行情
 
 ***
 
@@ -301,6 +331,11 @@ requirements:
 - 梳理公告新闻
 - 看宏观
 - 看期货行情
+- 看期权数据
+- 看基金数据
+- 看外汇数据
+- 看债券数据
+- 看加密货币
 - 拉数据导出
 - 测试交易策略
 - 回测量化模型
