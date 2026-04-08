@@ -27,6 +27,7 @@ requirements:
 - 看资金流、板块强弱
 - 梳理公告、新闻、政策
 - 查看宏观经济数据
+- 查看期货实时行情和历史数据
 - 导出数据供分析或回测
 - 使用 AKQuant 进行策略回测
 
@@ -87,11 +88,14 @@ requirements:
 ### 9. 宏观 / 跨市场
 - 核心接口：`macro_china_cpi`, `macro_china_pmi`, `stock_us_spot`, `stock_hk_spot`
 
-### 10. 导出 / 研究准备
+### 10. 期货数据
+- 核心接口：`futures_zh_realtime`（期货实时行情）, `futures_zh_daily`（期货日线数据）, `futures_contract_info_shfe`（期货合约信息）
+
+### 11. 导出 / 研究准备
 - 核心：统一输出规则与命名规范
 
-### 11. 量化策略回测
-- 核心接口：`stock_zh_a_daily`, `stock_zh_a_hist`, `akquant` 库
+### 12. 量化策略回测
+- 核心接口：`stock_zh_a_daily`, `stock_zh_a_hist`, `futures_zh_daily`, `akquant` 库
 
 ***
 
@@ -263,6 +267,9 @@ requirements:
 - `macro_china_pmi`：中国PMI数据
 - `stock_us_spot`：美股实时行情
 - `stock_hk_spot`：港股实时行情
+- `futures_zh_realtime`：期货实时行情
+- `futures_zh_daily`：期货日线数据
+- `futures_contract_info_shfe`：期货合约信息
 
 ***
 
@@ -293,6 +300,7 @@ requirements:
 - 看资金流
 - 梳理公告新闻
 - 看宏观
+- 看期货行情
 - 拉数据导出
 - 测试交易策略
 - 回测量化模型
