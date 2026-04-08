@@ -3,12 +3,14 @@
 """
 期权数据演示脚本
 
-使用Akshare获取期权实时行情和历史数据
+使用Akshare获取期权实时行情和历史数据，以及天然橡胶期货实时行情
 """
 
 import akshare as ak
 import pandas as pd
 from datetime import datetime
+import json
+import os
 
 
 def get_option_realtime():
